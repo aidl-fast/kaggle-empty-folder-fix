@@ -1,7 +1,7 @@
 # kaggle-empty-folder-fix
 Fix the Kaggle empty file upload issue (e.g. nii.gz etc.) using this Python script.
 
-![image link](https://github.com/hasannasirkhan/kaggle-empty-folder-fix/blob/main/empty_file_kaggle.jpg)
+![image link](https://github.com/aidl-fast/kaggle-empty-folder-fix/blob/main/empty_file_kaggle.jpg)
 
 ## Description:
 This repository provides a Python script to fix the issue of empty directories appearing when uploading MRI images and their respective masks in .nii.gz format on Kaggle. Kaggle's automatic unzipping of .nii.gz files results in empty folders displayed as directories in the Kaggle notebook. The script ensures that the .nii.gz files are correctly recognized, allowing smooth uploading and utilization of MRI data on Kaggle.
@@ -46,7 +46,7 @@ The code decompresses .nii.gz files in the "SSA_Training" directory to .nii form
 
 1. Clone the repository to your local machine:
 <pre>
-git clone https://github.com/hasannasirkhan/kaggle-empty-folder-fix.git  
+git clone https://github.com/aidl-fast/kaggle-empty-folder-fix.git  
 </pre>
 
 2. Run the preprocessing script to decompress the .nii.gz files and save them as .nii files:
